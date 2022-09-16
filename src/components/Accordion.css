@@ -1,0 +1,26 @@
+.accordionWrapper {
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.accordionItemHeader {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8e8e8;
+}
+
+.accordionItemContent {
+    height: 0;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+
+.itemActive {
+    height: auto;
+    padding: 0.5rem;
+}
+
+.headerActive {
+    background-color: #c8c8c8;
+}
